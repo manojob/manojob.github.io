@@ -3,6 +3,7 @@ Slate Theme for GitHub Pages
 by Jason Costello, @jsncostello
 *******************************************************************************/
 
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 @import url(github-light.css);
 
 /*******************************************************************************
@@ -26,6 +27,8 @@ time, mark, audio, video {
   padding: 0;
   border: 0;
   font: inherit;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 14px;
   vertical-align: baseline;
 }
 
@@ -51,7 +54,6 @@ Theme Styles
 body {
   box-sizing: border-box;
   color:#373737;
-  background: #212121;
   font-size: 16px;
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -103,9 +105,10 @@ footer p {
 
 a {
   text-decoration: none;
-  color: #007edf;
+  color: #444444;
+  font-size: 14px;
   text-shadow: none;
-
+  font-weight: bold;
   transition: color 0.5s ease;
   transition: text-shadow 0.5s ease;
   -webkit-transition: color 0.5s ease;
@@ -234,8 +237,8 @@ hr {
 }
 
 table {
-  border: 1px solid #373737;
-  margin-bottom: 20px;
+  border: 9px;
+  margin-bottom: 0px;
   text-align: left;
  }
 
@@ -247,8 +250,20 @@ th {
  }
 
 td {
-  padding: 10px;
-  border: 1px solid #373737;
+  padding: 5px;
+  border: 0px;
+ }
+
+.menu {
+  padding: 5px;
+  border: 1px solid #99aa99;
+  color: #444444;
+  font-size: 13px;
+ }
+.imgtxt {
+  padding: 0px 5px 0px 5px;
+  color: #444444;
+  font-size: 12px;
  }
 
 form {

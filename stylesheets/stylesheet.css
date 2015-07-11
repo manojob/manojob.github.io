@@ -237,31 +237,46 @@ hr {
 }
 
 table {
-  border: 9px;
+  border: 1px;
+  padding: 0px;
   margin-bottom: 0px;
   text-align: left;
  }
 
 th {
   font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  padding: 10px;
+  padding: 0px;
   background: #373737;
   color: #fff;
  }
 
 td {
-  padding: 5px;
+  padding: 2px;
+  border: 0px;
+ }
+
+td0 {
+  padding: 0px;
   border: 0px;
  }
 
 .menu {
-  padding: 5px;
+  padding: 2px;
   border: 1px solid #99aa99;
   color: #444444;
-  font-size: 13px;
+  font-size: 12px;
  }
+
 .imgtxt {
   padding: 0px 5px 0px 5px;
+  border: 0px;
+  color: #444444;
+  font-size: 12px;
+ }
+
+.img {
+  padding: 0px;
+  border: 0px;
   color: #444444;
   font-size: 12px;
  }
